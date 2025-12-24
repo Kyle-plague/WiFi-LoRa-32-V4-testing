@@ -1,0 +1,52 @@
+# Arduino IDE
+*.ino.eep
+*.ino.elf
+*.ino.hex
+*.ino.map
+*.ino.with_bootloader.bin
+*.ino.bin
+*.ino.partitions.bin
+*.ino.bootloader.bin
+
+# Build directories
+build/
+.build/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Platform IO
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+
+# Libraries (if using external library management)
+libraries/
+
+# IDE specific
+*.iml
+.idea/
