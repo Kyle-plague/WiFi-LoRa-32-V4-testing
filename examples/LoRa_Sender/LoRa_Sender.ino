@@ -105,7 +105,7 @@ void sendLoRaPacket() {
   Heltec.display->drawString(0, 0, "LoRa Sender");
   Heltec.display->drawString(0, 15, "Packets Sent:");
   Heltec.display->drawString(0, 28, String(packetCounter));
-  Heltec.display->drawString(0, 41, "Last: " + String(packetCounter));
+  Heltec.display->drawString(0, 41, "Freq: " + String((int)(BAND/1E6)) + " MHz");
   Heltec.display->drawString(0, 54, "Power: 17dBm");
   
   Heltec.display->display();

@@ -270,7 +270,7 @@ void updateDisplay() {
   
   // RSSI
   if (lastRSSI != 0) {
-    Heltec.display->drawString(0, 48, "RSSI:" + String(lastRSSI) + "dBm");
+    Heltec.display->drawString(0, 48, "RSSI: " + String(lastRSSI) + " dBm");
   }
   
   // Round-trip time
